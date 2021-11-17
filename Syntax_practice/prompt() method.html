@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TCP_school_practice</title>
+  </head>
+  <body>
+    <h1>prompt() method</h1>
+    <input
+      type="button"
+      value="prompt dialog box"
+      onclick="promptDialogBox()"
+    />
+    <p id="text"></p>
+    <script>
+      /*window.prompt("간단한 메시지"); 
+      사용자가 대화 상자에 입력한 텍스트를 문자열 타입으로 반환한다.*/
+      function promptDialogBox() {
+        const inputStr = prompt("Please, type your name here", "John Doe");
+        if (inputStr != null) {
+          document.getElementById("text").innerHTML =
+            "Your name is " + inputStr;
+        }
+      }
+    </script>
+  </body>
+</html>
