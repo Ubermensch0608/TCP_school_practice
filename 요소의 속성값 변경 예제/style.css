@@ -1,0 +1,39 @@
+body {
+    margin: 30px;
+    padding: 0;
+}
+.exampleText {
+    padding: 10px;
+}
+.exampleBox {
+    background-color: #e6e6e6;
+    width: 800px;
+}
+input {
+    background-color: rgb(255, 230, 175);
+    font-weight: bold;
+    border-color: orange;
+    border-style:solid;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.trunCPUon{
+    margin: 25px;
+    margin-top: 180px;
+    position: absolute;
+}
+.turnCPUoff{
+    margin: 25px;
+    margin-top: 180px;
+    margin-left: 200px;
+    position: absolute; 
+}
+img {
+    width: 50%;
+    height: auto;
+    left: 180px;
+    bottom: 18px;
+    background-color: white;
+    position:relative;
+
+}

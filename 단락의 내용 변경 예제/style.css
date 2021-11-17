@@ -1,0 +1,24 @@
+.textbox {
+    background-color: lightgrey;
+    width: 500px;
+    margin: 40px;
+    padding: 10px;
+}
+.changeButton {
+    background-color: rgb(255, 220, 155);
+    border-radius: 0;
+    border-color: orange;
+    border-style:solid;
+    font-weight: bold;
+    padding: 4px;
+}
+p{
+    background-color: white;
+    margin: 0 ;
+    margin-top: 15px;
+    padding: 2px;
+}
+.exText {
+    font-size: small;
+    margin-bottom: 7px;
+}
