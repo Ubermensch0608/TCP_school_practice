@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TCP_school_practice</title>
+  </head>
+  <body>
+    <h1>Array.of() 메소드</h1>
+    <!-- Array.of() 메소드는 인수의 수나 타입에 상관없이 인수로 전달받은 값을 가지고 새로운 Array 인스턴스를 생성합니다.
+    이때 Array.of() 메소드와 Array 객체 생성자와의 차이로는 정수로 전달된 인수의 처리 방식에 있습니다. -->
+    <script>
+      new Array(10);
+      document.write(Array.of(10));
+    </script>
+    <!-- 위의 예제에서 Array 객체 생성자에 인수로 정수 10을 전달하면,
+    생성자는 길이가 10인 빈 배열을 생성한다.
+    하지만 Array.of() 메소드에 인수로 정수 10을 전달하면, 
+    정수 10을 배열 요소로 가지는 길이가 1인 배열을 생성합니다. -->
+  </body>
+</html>

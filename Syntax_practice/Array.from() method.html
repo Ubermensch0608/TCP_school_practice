@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TCP_school_practice</title>
+  </head>
+  <body>
+    <h1>Array.from() 메소드</h1>
+    <!-- Array.from() 메소드는 다음 객체들을 배열처럼 변환시킨다. 
+    1. 배열과 비슷한 객체(array-like objects): length 프로퍼티와 인덱스 된 요소를 가지고 있는 객체
+    2. 반복할 수 있는 객체(iterable objects): Map과 Set 객체 및 문자열과 같이 해당 요소를 개별적으로 선택할 수 있는 객체
+
+    하지만 이렇게 생성된 객체는 정확히 말하면 Array 객체는 아니며, Array 객체의 자식 클래스(child class)입니다. -->
+    <script>
+      function arrayFrom() {
+        return Array.from(arguments);
+      }
+      document.write(Array.from(arrayFrom(1, 2, 3)) + "<br>");
+      var myMap = new Map([
+        [1, 2],
+        [3, 4],
+      ]);
+      document.write(Array.from(myMap) + "<br>");
+      document.write(Array.from("JavaScript"));
+    </script>
+  </body>
+</html>
